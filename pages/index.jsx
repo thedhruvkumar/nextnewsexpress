@@ -26,7 +26,6 @@ export default function Home() {
       </Head>
       <div className={`${styles.main} `}>
         <h1>Express News</h1>
-        <div className={``}>
           {news &&
             news.map((item) => {
               return (
@@ -49,7 +48,6 @@ export default function Home() {
                 </div>
               );
             })}
-        </div>
       </div>
     </>
   );
