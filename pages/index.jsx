@@ -12,7 +12,6 @@ export default function Home() {
     )
       .then((data) => data.json())
       .then((data) => {
-        console.log(data);
         setNews(data.articles);
       });
   }, []);
